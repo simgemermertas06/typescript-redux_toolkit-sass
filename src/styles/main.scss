@@ -1,0 +1,15 @@
+// _variables.scss dosyasını import ettik
+@use "./variables" as *;
+
+body {
+  background-color: $primary-color;
+  font-family: $font-primary;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
